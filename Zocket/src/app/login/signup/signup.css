@@ -3,37 +3,37 @@
 @tailwind utilities;
 
 .signup-container {
-  @apply min-h-screen flex items-center justify-center bg-gray-50;
+  @apply min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-300;
 }
 
 .signup-box {
-  @apply bg-white p-8 rounded-lg shadow-md w-full max-w-md;
+  @apply bg-white p-10 rounded-xl shadow-lg w-full max-w-md;
 }
 
 .signup-title {
-  @apply text-2xl font-bold text-gray-800 mb-4;
+  @apply text-3xl font-bold text-gray-900 mb-2 text-center;
 }
 
 .signup-subtitle {
-  @apply text-gray-600 mb-6;
+  @apply text-gray-600 mb-6 text-center;
 }
 
 .signup-form {
-  @apply space-y-4;
+  @apply space-y-5;
 }
 
 .signup-input {
-  @apply w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  @apply w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition;
 }
 
 .signup-button {
-  @apply w-full py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-200 font-semibold;
+  @apply w-full py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-200 shadow-md hover:shadow-lg;
 }
 
 .signup-footer {
-  @apply mt-4 text-center text-gray-600;
+  @apply mt-5 text-center text-gray-600;
 }
 
 .login-link {
-  @apply text-blue-600 hover:text-blue-800 cursor-pointer;
+  @apply text-blue-600 hover:text-blue-800 font-medium transition;
 }
